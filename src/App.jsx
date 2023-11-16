@@ -8,7 +8,7 @@ import Index from "./Components/Pages/Index";
 import New from "./Components/Pages/New";
 import Show from "./Components/Pages/Show";
 import Edit from "./Components/Pages/Edit";
-// import FourOFour from "./Components/Pages/FourOFour";
+import FourOFour from "./Components/Pages/FourOFour";
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/songs/:index" element={<Show />} />
         <Route path="/songs/new" element={<New />} />
         <Route path="/songs/:index/edit" element={<Edit />} />
-        {/* <Route path="*" element={<FourOFour />} /> */}
+        <Route path="*" element={<FourOFour />} />
       </Routes>
     </Router>
   );
