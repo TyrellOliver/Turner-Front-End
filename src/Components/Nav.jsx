@@ -1,3 +1,5 @@
+import "./Styles/Nav.css";
+
 export default function Nav() {
   return (
     <nav className="navBar">
